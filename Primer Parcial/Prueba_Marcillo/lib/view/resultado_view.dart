@@ -27,13 +27,3 @@ class ResultView extends StatelessWidget {
   }
 }
 
-class ResultArgs {
-  final List<int> numeros;
-  final int menores15;
-  final int mayores50;
-  final int entre25_45;
-  final double promedio;
-
-  ResultArgs(this.numeros, this.menores15, this.mayores50, this.entre25_45, this.promedio);
-}
-
